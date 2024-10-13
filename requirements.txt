@@ -17,7 +17,8 @@ fonttools==4.53.1
 kiwisolver==1.4.5
 matplotlib==3.9.2
 #numpy==2.1.0
-numpy==1.24.2
+#numpy==1.24.2
+numpy==1.21.6
 packaging==24.1
 pandas==2.2.2
 pillow==10.4.0
