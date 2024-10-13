@@ -5,7 +5,7 @@ influxdb-client
 #Adafruit-Blinka==8.47.0
 adafruit-circuitpython-busdevice==5.2.9
 adafruit-circuitpython-connectionmanager==3.1.1
-adafruit-circuitpython-dht==4.0.4
+#adafruit-circuitpython-dht==4.0.4
 adafruit-circuitpython-requests==4.1.6
 adafruit-circuitpython-typing==1.11.0
 Adafruit-PlatformDetect==3.73.0
