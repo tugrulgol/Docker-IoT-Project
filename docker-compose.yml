@@ -27,6 +27,7 @@ services:
       - DOCKER_INFLUXDB_INIT_BUCKET=phy-lab
     volumes:
       - influxdb_data:/var/lib/influxdb2
+      - ./influxdb/log:/influxdb/log # (proje dosyasinda /influxdb ve /log dosyalari ac)
     #healthcheck:
     #  test: ["CMD", "curl", "-f", "http://localhost:8086/health"]
     #  interval: 30s

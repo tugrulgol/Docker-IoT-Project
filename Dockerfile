@@ -19,9 +19,10 @@ RUN pip install --upgrade pip \
 RUN pip install --no-cache-dir -r requirements.txt
 #RUN pip install --upgrade influxdb-client
 
-# Copy the Python script into the container
-COPY iot_project.py /app/
+# Copy the Python scripts into the container
+COPY sensor_app.py /app/
+COPY mqtt_handler.py /app/ 
 
 # Run the script when the container starts
-CMD ["python", "iot_project.py"]
+CMD ["python", "sensor_app.py"]
 
